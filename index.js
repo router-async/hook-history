@@ -13,7 +13,7 @@ module.exports = function (_ref) {
     return {
         start: function () {
             if (history.action) {
-                var route = `${location.pathname}${location.search}`;
+                var route = '' + location.pathname + location.search;
                 var lastRoute = sessionHistory.routes[sessionHistory.length - 1];
 
                 if (route !== lastRoute) {
