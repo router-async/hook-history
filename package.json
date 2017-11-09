@@ -1,6 +1,6 @@
 {
   "name": "hook-history",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Router-async history hook",
   "keywords": [
     "router-async",
@@ -16,7 +16,9 @@
   "author": {
     "name": "ramoona"
   },
-  "contributors": [],
+  "contributors": [
+      "Aleksey Novikov <lamo2k123@gmail.com>"
+  ],
   "main": "index.js",
   "repository": "router-async/hook-history",
   "scripts": {
