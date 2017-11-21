@@ -1,6 +1,6 @@
 {
   "name": "hook-history",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Router-async history hook",
   "keywords": [
     "router-async",

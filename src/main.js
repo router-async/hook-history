@@ -4,7 +4,8 @@ let session = [];
 
 if(storageHistory) {
     try {
-        session = JSON.parse(storageHistory);
+        const parsed = JSON.parse(storageHistory);
+        session = Array.isArray(parsed) ? parsed : [];
     } catch(e) {
         console.warn('Session history parse failed:', e);
     }
