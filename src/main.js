@@ -9,6 +9,9 @@ if(storageHistory) {
     } catch(e) {
         console.warn('Session history parse failed:', e);
     }
+} else {
+    session.push(location.pathname);
+    sessionStorage.setItem('session-history', JSON.stringify(session));
 }
 
 module.exports = ({ history }) => ({
